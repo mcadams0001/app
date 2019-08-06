@@ -1,5 +1,9 @@
 version: 0.2
 
+evn:
+  parameter-store:
+    - LOCATION: Location
+    - LICENSE_KEY: LicenseKey
 phases:
   install:
     runtime-versions:
